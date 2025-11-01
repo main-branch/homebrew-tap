@@ -4,9 +4,9 @@ class Chezroot < Formula
   license "MIT"
 
   # These values are placeholders. The release.yml workflow will update them automatically.
-  version "0.1.0"
-  url "https://github.com/main-branch/chezroot/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  version "0.1.3"
+  url "https://github.com/main-branch/chezroot/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "950a2c67acacaad9df347e1a1f918259791d82b1b6c7ecd14be84938d78132b8"
 
   head "https://github.com/main-branch/chezroot.git", branch: "main"
 
