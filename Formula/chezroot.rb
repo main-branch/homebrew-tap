@@ -18,8 +18,6 @@ class Chezroot < Formula
   def install
     # This command builds the binary from ./cmd/chezroot
     system "go", "build", *std_go_args(ldflags: "-s -w"), "./cmd/chezroot"
-    # This installs the built binary into the Homebrew bin directory
-    bin.install "chezroot"
   end
 
   test do
