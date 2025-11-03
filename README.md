@@ -2,7 +2,7 @@
 
 A Homebrew tap for command-line utilities and other software by @main-branch.
 
-## How do I install these formulae?
+## How do I install these formula?
 
 `brew install main-branch/tap/<formula>`
 
