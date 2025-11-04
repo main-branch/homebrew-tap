@@ -1,16 +1,16 @@
 class Chezroot < Formula
   desc "A sudo wrapper for chezmoi to manage root-owned files"
-  homepage "https.github.com/main-branch/chezroot"
+  homepage "https://github.com/main-branch/chezroot"
   # This section will be for the Intel (amd64) binary
-  url "https://github.com/main-branch/chezroot/releases/download/v0.1.10/chezroot_0.1.10_darwin_amd64.tar.gz"
-  sha256 "63a9b7ddc62db42b861903f6699193ed4fd10594520743e4c0a8da2c1a82369f"
+  url "https://github.com/main-branch/chezroot/releases/download/v0.1.12/chezroot_0.1.12_darwin_amd64.tar.gz"
+  sha256 "be8a7eb09048fa722a49807460dfdab8e58a01fe2280f5c96adc780929ca0e4e"
   license "MIT"
-  version "v0.1.10" # Homebrew uses the tag for the version
+  version "v0.1.12" # Homebrew uses the tag for the version
 
   # This block handles the Apple Silicon (arm64) binary
   on_arm do
-    url "https://github.com/main-branch/chezroot/releases/download/v0.1.10/chezroot_0.1.10_darwin_arm64.tar.gz"
-    sha256 "1652e06455ba17af2624b2da250bbf7e05233952d1079b987208ccefae8ca233"
+    url "https://github.com/main-branch/chezroot/releases/download/v0.1.12/chezroot_0.1.12_darwin_arm64.tar.gz"
+    sha256 "66d5247138fb72dfffccf7feb860fed94fd57c87c5bfb47b340527cc1c758997"
   end
 
   # We no longer need "go" to build, only "chezmoi" to run
